@@ -1,0 +1,63 @@
+{
+  "chainId": 1,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xd05e727961e542224f69b48786b0c0863f5f4b30",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-1823-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "0cca51fc-2dc1-42b8-8bd6-47509921f926",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "BegVault is immutable, with no owner, admin, pause or upgrade functions. Constructor arguments are BEG token, team payment beneficiary, Intake, IMD, oracle signer and entry price (0.005 ETH). $owner receives the team payment entitlement without administrative powers. Protocol addresses follow the accepted deployment documentation; live verification remains a predeployment requirement. BegVault starts unfunded and rejects attempts with VaultEmpty until funded by a BEG transfer after deployment. The intended launch-wallet funding amount is not enforced on chain. No initialization calls are required. The factory supplies MerkleDistributor and the initialization-only pool guard. The service derives the opening price from launch policy.",
+    "token": {
+      "name": "BEG",
+      "symbol": "BEG",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "BegVault",
+        "constructorArgs": [
+          "$token",
+          "$owner",
+          "0xa43e6f75ee006411f79ac1c84120606c2330de82",
+          "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+          "0x5598aa9146215bc13eb26f2c692ad1461fd32982",
+          "5000000000000000"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xf7df10c88297c7e43a2bb44f7474bace24997e6e5c96da53060dd6207aa1bd4c",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xd05e727961e542224f69b48786b0c0863f5f4b30",
+      "blockNumber": 26196859,
+      "creationCodeHash": "3d3b3dd297a45de5999f1b5b62b9f5d1fc593e57200147fcd9d566cefd9df7b2"
+    },
+    {
+      "name": "BegVault",
+      "txHash": "0xf7df10c88297c7e43a2bb44f7474bace24997e6e5c96da53060dd6207aa1bd4c",
+      "abiHash": "b78395d0d94547990186d2a95fba1c64e408775b66da6d528a39aedede204db4",
+      "address": "0x68fc619e74112447ebbf3af06787e1fcfc9fd547",
+      "blockNumber": 26196859,
+      "creationCodeHash": "b61a68ec62cfa00c9e0cef2d9c0ad3d646391807fb66826160a98801f06c1869"
+    }
+  ],
+  "sourceCommit": "ce23afeb19cb46efb8fde307d25cebb59801e74b",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "c3d7c86069c7322b960f529d7e8a58bbb82f07bbf6d24111cdaa08d2b1c8e990"
+}

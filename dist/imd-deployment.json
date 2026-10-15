@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "launchId": "0cca51fc-2dc1-42b8-8bd6-47509921f926",
+  "chainId": 1,
+  "sourceCommit": "ce23afeb19cb46efb8fde307d25cebb59801e74b",
+  "attestationHash": "c3d7c86069c7322b960f529d7e8a58bbb82f07bbf6d24111cdaa08d2b1c8e990",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xd05e727961e542224f69b48786b0c0863f5f4b30",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "BegVault",
+      "address": "0x68fc619e74112447ebbf3af06787e1fcfc9fd547",
+      "abiHash": "b78395d0d94547990186d2a95fba1c64e408775b66da6d528a39aedede204db4",
+      "abiPath": "abi/BegVault.json"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xd05e727961e542224f69b48786b0c0863f5f4b30",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "testnet": false,
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "explorer": "https://etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "universalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "quoter": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "stateView": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "positionManager": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    },
+    "otherPairTokens": [
+      {
+        "id": "fwa",
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "name": "Fake World Assets",
+        "decimals": 18
+      }
+    ]
+  },
+  "walletAddChain": {
+    "chainId": "0x1",
+    "chainName": "Ethereum",
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/BegVault.json",
+      "sha256": "fc74c3dbc1f0a8e6eb3a5acb15102ed7d8b3952b0587ca4cc692aa86151ba40a"
+    },
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "assets/ccip-QBv7nVkf.js",
+      "sha256": "0c4d01f3da58f2fc7da4a9d33048e7ad29b94631392266324c02da6ae96513f1"
+    },
+    {
+      "path": "assets/dist-iUwkM7gO.js",
+      "sha256": "12827f5d82182725002b59c02ec95085155dfdd412137311c1b671d63699c560"
+    },
+    {
+      "path": "assets/index-DL8mtnoG.js",
+      "sha256": "1fe68165f0bc851fdc2f8514d473f60b0d56c638fe2c10d38bbda4f601c67fbf"
+    },
+    {
+      "path": "assets/index-DdBFwjQ2.css",
+      "sha256": "4081bb37792a42a3e4f27d06d9e79ac61bf6a6103ec72b6de411861c93f54e71"
+    },
+    {
+      "path": "assets/space-grotesk-latin-ext-wght-normal-D9tNdqV9.woff2",
+      "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166"
+    },
+    {
+      "path": "assets/space-grotesk-latin-wght-normal-BhU9QXUp.woff2",
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2",
+      "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "73eb1eb311dc2ceb37e3e021b0760e6245ef8042874c907c46b4b222a4ca409a"
+    },
+    {
+      "path": "index.html",
+      "sha256": "200f9c7369e2fd50de63619e2d7e964b3df5c16a838594d837e7bef8b45cf9c5"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "28ca0d689f4aa5314b374e35f90b1a5bb6e100583f7324a7da8f3c0611d46922"
+    },
+    {
+      "path": "social.png",
+      "sha256": "10a4ad4cef8b5a6cca04be4061f036bf089270d18a31427172a69babd8acce62"
+    },
+    {
+      "path": "wallets/coinbase.svg",
+      "sha256": "ab2d64bdbb8f4ffdcbfdb04167f622d4ac64bbcade1a1bc937761478f1efa62f"
+    },
+    {
+      "path": "wallets/metaMask.svg",
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "wallets/phantom.svg",
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "wallets/rabby.svg",
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "violations": [],
+  "passes": 48,
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".empty-eye"
+          ],
+          "html": "<span class=\"empty-eye\" aria-hidden=\"true\">◉</span>",
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ]
+}

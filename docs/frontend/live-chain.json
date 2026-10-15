@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-15T09:18:49.669Z",
+  "publicSources": [
+    "https://ethereum-rpc.publicnode.com",
+    "https://eth.drpc.org"
+  ],
+  "chainId": 1,
+  "block": 26196969,
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xd05e727961e542224f69b48786b0c0863f5f4b30",
+      "codeBytes": 1502
+    },
+    {
+      "name": "BegVault",
+      "address": "0x68fc619e74112447ebbf3af06787e1fcfc9fd547",
+      "codeBytes": 19754
+    }
+  ],
+  "reads": {
+    "token": "0xd05e727961e542224F69B48786B0C0863F5f4B30",
+    "imd": "0xD34a99Bc0f67aE1bbd63C660e6d0b0dd03E263B7",
+    "intake": "0xa43e6F75ee006411F79Ac1C84120606C2330DE82",
+    "ATTEMPT_PRICE": "5000000000000000",
+    "vaultFreeBalance": "800000000000000000000002135",
+    "jackpotBank": "0",
+    "oracleTokenBudget": "500000000000000000",
+    "oracleBudget": "0",
+    "openBatchId": 1,
+    "nextAttemptId": 1,
+    "nextToClose": 1,
+    "batch": {
+      "firstAttemptId": "0",
+      "firstNonce": "0",
+      "openedAt": "0",
+      "closedAt": "0",
+      "rollBlock": "0",
+      "size": 0,
+      "status": 0,
+      "missedWindows": 0,
+      "lastPlayer": "0x0000000000000000000000000000000000000000",
+      "prevrandao": "0",
+      "scores": "0",
+      "seed": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "tokenDecimals": 18,
+    "symbol": "BEG",
+    "oracleFee": "500000000000000000"
+  },
+  "uniswap": {
+    "poolManager": {
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "codeBytes": 24009
+    },
+    "universalRouter": {
+      "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "codeBytes": 19499
+    },
+    "quoter": {
+      "address": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "codeBytes": 5820
+    },
+    "stateView": {
+      "address": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "codeBytes": 3531
+    },
+    "positionManager": {
+      "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "codeBytes": 23877
+    },
+    "permit2": {
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "codeBytes": 9152
+    }
+  },
+  "transactionsBroadcast": 0
+}

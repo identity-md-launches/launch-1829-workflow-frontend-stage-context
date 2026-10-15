@@ -1,0 +1,41 @@
+{
+  "method": "WCAG 2 sRGB luminance ratios from implemented solid tokens; rendered text also checked with taste and axe.",
+  "ratios": {
+    "text": {
+      "page": 17.56,
+      "surface": 16.18,
+      "field": 17.07
+    },
+    "muted": {
+      "page": 9.08,
+      "surface": 8.36,
+      "field": 8.82
+    },
+    "gold": {
+      "page": 12.68,
+      "surface": 11.68,
+      "field": 12.32
+    },
+    "violet-text": {
+      "page": 9.03,
+      "surface": 8.32,
+      "field": 8.78
+    },
+    "red": {
+      "page": 8.76,
+      "surface": 8.07,
+      "field": 8.52
+    },
+    "green": {
+      "page": 12.81,
+      "surface": 11.8,
+      "field": 12.45
+    },
+    "placeholder": {
+      "page": 6.01,
+      "surface": 5.54,
+      "field": 5.84
+    },
+    "action-text-on-gold": 12.68
+  }
+}

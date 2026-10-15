@@ -1,0 +1,119 @@
+{
+  "testedAt": "2026-10-15T10:08:52.118Z",
+  "mockedRpc": true,
+  "realTransactions": 0,
+  "results": [
+    {
+      "name": "Static subpath, first screen, reflow at 320/390/768/1440 and metadata",
+      "passed": true,
+      "durationMs": 4581
+    },
+    {
+      "name": "UTF-8 counter, input length and keyboard odds slider",
+      "passed": true,
+      "durationMs": 939
+    },
+    {
+      "name": "EIP-6963 picker, keyboard focus return, unknown-chain add and switch",
+      "passed": true,
+      "durationMs": 1269
+    },
+    {
+      "name": "Wrong network remains explicit after switch rejection; writes disabled",
+      "passed": true,
+      "durationMs": 1102
+    },
+    {
+      "name": "Beg simulation, review, exact payment, confirmation and cooldown",
+      "passed": true,
+      "durationMs": 2074
+    },
+    {
+      "name": "Wallet rejection is recoverable with no broadcast",
+      "passed": true,
+      "durationMs": 2393
+    },
+    {
+      "name": "Simulation custom error prevents wallet prompt",
+      "passed": true,
+      "durationMs": 1654
+    },
+    {
+      "name": "Duplicate messages, active cooldown and unfunded vault block play",
+      "passed": true,
+      "durationMs": 15574
+    },
+    {
+      "name": "Oracle approval and funding are separate exact-amount transactions",
+      "passed": true,
+      "durationMs": 3336
+    },
+    {
+      "name": "Expired refund credits ETH; Claim withdraws; messages stay plain text",
+      "passed": true,
+      "durationMs": 3158
+    },
+    {
+      "name": "Keeper close, reveal, rearm and expiry eligibility",
+      "passed": true,
+      "durationMs": 6514
+    },
+    {
+      "name": "ETH buy uses configured router, exact pool key, minimum output and native value",
+      "passed": true,
+      "durationMs": 3128
+    },
+    {
+      "name": "BEG sell requires ERC20 approval, Permit2 router approval, then swap with zero value",
+      "passed": true,
+      "durationMs": 2891
+    },
+    {
+      "name": "RPC failure leaves cached state visible but disables actions",
+      "passed": true,
+      "durationMs": 1791
+    },
+    {
+      "name": "Mobile wallet paths and Coinbase Smart Wallet",
+      "passed": true,
+      "durationMs": 716
+    },
+    {
+      "name": "Long balance and full-address reflow",
+      "passed": true,
+      "durationMs": 1295
+    },
+    {
+      "name": "Adaptive log ranges recover from a ten-block provider limit",
+      "passed": true,
+      "durationMs": 15706
+    },
+    {
+      "name": "Quote expiry and slippage validation prevent stale signing",
+      "passed": true,
+      "durationMs": 2569
+    },
+    {
+      "name": "Invalid keeper IDs, 200% text, and reduced motion remain usable",
+      "passed": true,
+      "durationMs": 1209
+    },
+    {
+      "name": "Keyboard connection, submission and review with visible focus",
+      "passed": true,
+      "durationMs": 2494
+    },
+    {
+      "name": "No browser script errors or missing static resources",
+      "passed": true,
+      "durationMs": 0
+    },
+    {
+      "name": "WebKit: connect and submit primary action",
+      "passed": true,
+      "durationMs": 8189
+    }
+  ],
+  "scriptErrors": [],
+  "staticFailures": []
+}

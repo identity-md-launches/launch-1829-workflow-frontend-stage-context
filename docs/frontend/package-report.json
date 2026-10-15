@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-15T10:12:59.318541+00:00",
+  "allowedNewFiles": 79,
+  "newFileBytes": 1925663,
+  "existingTrackedFileBytes": 1392338,
+  "submissionLimitBytes": 8388608,
+  "completeWorkingTreePayloadBytes": 3318001,
+  "protectedTrackedFilesChanged": false,
+  "dependencyCachesIncluded": false,
+  "gitSubmodules": false,
+  "stagingResult": "Unable to create .git/index.lock: Read-only file system",
+  "bundleResult": "Could not create a Git bundle: partial-clone history requires fetching objects, but .git/objects is read-only. Final Git bundle size must be checked by the submitting system.",
+  "exportBytesIncludingManifest": 900985
+}

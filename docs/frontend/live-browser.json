@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-15T10:08:35.602Z",
+  "publicSources": [
+    "https://ethereum-rpc.publicnode.com",
+    "https://eth.drpc.org"
+  ],
+  "chainId": 1,
+  "values": "The pot, right now\nLive\nJackpot bank\n0 ETH\n\nA jackpot wins half the bank.\n\nFree vault\n800,000,000 BEG\nTotal attempts\n0\nCurrent batch\n#1 · 0/20\nBatch countdown\nStarts with a plea\nOracle budget\n0.5 IMD\nBounty budget\n0 ETH\nBlock 26197216 · every 15s\nRefresh",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 844,
+      "overflow": false,
+      "primaryActionBottom": 638.59375
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "primaryActionBottom": 583.59375
+    },
+    {
+      "width": 768,
+      "height": 844,
+      "overflow": false,
+      "primaryActionBottom": 745.796875
+    },
+    {
+      "width": 1440,
+      "height": 844,
+      "overflow": false,
+      "primaryActionBottom": 771.796875
+    }
+  ],
+  "quote": "Get more BEG\nUniswap v4\n\nTrade the deployed ETH/BEG pool.\n\nBuy BEG\nSell BEG\nSpend (ETH)\nSlippage (%)\n\nBalance: … ETH · Pool fee: 1.25% · USD pricing unavailable.\n\nGet quote\nExpected output\n985.90988 BEG\nMinimum received\n980.98033 BEG\nRate\n98,590,988.418 BEG/ETH\n\nQuote expires in 60s.\n\nSwap ETH for BEG\n\nConnect your wallet above to trade.",
+  "rpcMethods": [
+    "eth_getCode",
+    "eth_chainId",
+    "eth_getBlockByNumber",
+    "eth_call",
+    "eth_getLogs"
+  ],
+  "transactionsBroadcast": 0,
+  "scriptErrors": [],
+  "missingAssets": []
+}

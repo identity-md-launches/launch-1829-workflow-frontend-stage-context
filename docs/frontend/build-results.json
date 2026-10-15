@@ -1,0 +1,38 @@
+{
+  "testedAt": "2026-10-15T10:10:03.825304+00:00",
+  "cleanInstall": {
+    "command": "npm ci --prefix web",
+    "exitCode": 0,
+    "auditVulnerabilities": 0
+  },
+  "nodeVersion": "v24.21.0",
+  "npmVersion": "11.19.0",
+  "results": [
+    {
+      "command": "npm --prefix web run typecheck",
+      "exitCode": 0,
+      "durationMs": 13267,
+      "output": "\n> beg-the-swarm@1.0.0 typecheck\n> tsc --noEmit\n\n"
+    },
+    {
+      "command": "npm --prefix web run test",
+      "exitCode": 0,
+      "durationMs": 2181,
+      "output": "\n> beg-the-swarm@1.0.0 test\n> tsx --test tests/*.test.ts\n\n\u2714 UTF-8 counts and exact message boundaries (3.050078ms)\n\u2714 amounts refuse rounding, negatives, exponent notation and zero (1.13428ms)\n\u2714 all score odds match integer contract formula and sum to 100% (2.469469ms)\n\u2714 keeper boundaries: close, expire, reveal, rearm (0.640852ms)\n\u2714 every implementation custom error has human copy (1.604367ms)\n\u2714 router payload preserves exact pool and minimum; native and ERC20 ordering (11.694638ms)\n\u2714 unknown chain adds exact supplied chain then switches again (1.157253ms)\n\u2714 wallet rejection never offers chain addition (1.13419ms)\n\u2714 mobile links preserve the gateway subpath (0.663067ms)\n\u2714 event history retains plain text and separates refunds from historical awards (0.968634ms)\n\u2714 large integers and tiny signed amounts retain exact precision (40.226461ms)\n\u2139 tests 11\n\u2139 suites 0\n\u2139 pass 11\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1656.150508\n"
+    },
+    {
+      "command": "npm --prefix web run build",
+      "exitCode": 0,
+      "durationMs": 3586,
+      "output": "\n> beg-the-swarm@1.0.0 build\n> node scripts/export.mjs prepare && vite build && node scripts/export.mjs manifest\n\nPinned implementation ABIs verified; runtime inputs prepared.\nvite v8.3.4 building client environment for production...\ntransforming...\n\u2713 1798 modules transformed.\nrendering chunks...\ncomputing gzip size...\n../dist/index.html                                                    1.04 kB \u2502 gzip:   0.51 kB\n../dist/assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2    6.71 kB\n../dist/assets/space-grotesk-latin-ext-wght-normal-D9tNdqV9.woff2    18.94 kB\n../dist/assets/space-grotesk-latin-wght-normal-BhU9QXUp.woff2        22.28 kB\n../dist/assets/index-DdBFwjQ2.css                                    15.26 kB \u2502 gzip:   4.28 kB\n../dist/assets/ccip-QBv7nVkf.js                                       2.83 kB \u2502 gzip:   1.31 kB\n../dist/assets/dist-iUwkM7gO.js                                      96.21 kB \u2502 gzip:  31.07 kB\n../dist/assets/index-DL8mtnoG.js                                    626.37 kB \u2502 gzip: 189.88 kB\n\n\u2713 built in 1.23s\nManifest written: 17 assets, 896168 bytes.\n"
+    },
+    {
+      "command": "npm --prefix web run verify",
+      "exitCode": 0,
+      "durationMs": 1167,
+      "output": "\n> beg-the-swarm@1.0.0 verify\n> node scripts/export.mjs verify\n\nPASS: exact handoff, network, pool key, 2 pinned ABI hashes, 17 SHA-256 assets; 896168 exported bytes.\n"
+    }
+  ],
+  "identicalExportAfterCleanInstall": true,
+  "deploymentManifestSha256": "07bd9314211f11d7ea1b6129d59af52e057b6f8b383e893ae1d5389b22b7bfd8"
+}
